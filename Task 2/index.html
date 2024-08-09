@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">INOSUKE</a>
+        <button class="nav-toggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+            <a href="resume.pdf" class="btn download-resume" download>Download Resume</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="peakpx.jpg" alt="background image">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Inosuke</span></h1>
+            <h3 class="typing-text">I'm a <span> </span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Web Development</h3>
+                <p>Creating responsive and high-performance websites tailored to your needs.</p>
+            </div>
+            <div class="service-item">
+                <h3>UI/UX Design</h3>
+                <p>Designing user-friendly interfaces and engaging user experiences.</p>
+            </div>
+            <div class="service-item">
+                <h3>Consulting</h3>
+                <p>Providing expert advice on software development and project management.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <h3>HTML & CSS</h3>
+                <p>Proficient in building and styling web pages with HTML and CSS.</p>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <p>Experienced in creating interactive and dynamic web applications.</p>
+            </div>
+            <div class="skill-item">
+                <h3>React</h3>
+                <p>Skilled in developing modern web applications using React.js.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-list">
+            <div class="education-item">
+                <h3>Bachelor's in Ece</h3>
+                <p>XYZ University, 2018-2022</p>
+            </div>
+            <div class="education-item">
+                <h3>Full Stack Web Development Bootcamp</h3>
+                <p>ABC Academy, 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3>Frontend Developer at Company A</h3>
+                <p>Developed and maintained the company's website, improving performance and user experience.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Web Developer Intern at Company B</h3>
+                <p>Assisted in building and testing web applications, gaining hands-on experience in modern web technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via email or social media:</p>
+        <p>Email: <a href="mailto:inosuke@example.com">inosuke@example.com</a></p>
+        <div class="social-icons">
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function () {
+            document.querySelector('nav').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
